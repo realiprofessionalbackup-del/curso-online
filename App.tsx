@@ -545,7 +545,7 @@ export default function App() {
             
             <FaqItem 
               question="Eu não sei gravar aula, e agora?" 
-              answer="Fique tranquila. Você receberá roteiros prontos e suporte técnico para gravar com o celular que você já tem. Não precisa de câmera de cinema, apenas do seu conhecimento." 
+              answer="Fique tranquila. Você receberá roteiros prontos e suporte técnico para gravar com le celular que você já tem. Não precisa de câmera de cinema, apenas do seu conhecimento." 
             />
             <FaqItem 
               question="Eu não entendo nada de tecnologia..." 
