@@ -154,18 +154,18 @@ export default function App() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[400px] bg-fuchsia-600/20 blur-[120px] rounded-full -z-10"></div>
         <div className="absolute bottom-0 right-0 w-[300px] h-[300px] bg-purple-600/10 blur-[100px] rounded-full -z-10"></div>
 
-        {/* FLOATING TILTED BADGE (SELO) */}
+        {/* FLOATING TILTED BADGE (SELO) - COR VERDE ESMERALDA VIBRANTE */}
         <div className="hidden lg:block absolute right-[5%] top-[25%] -rotate-12 z-20 pointer-events-none">
-          <div className="bg-zinc-900/90 border-2 border-fuchsia-500/40 backdrop-blur-xl px-8 py-4 rounded-[2rem] shadow-[0_20px_50px_rgba(236,72,153,0.3)] animate-pulse">
-            <span className="text-2xl font-black tracking-tighter uppercase text-gradient">
+          <div className="bg-zinc-950/95 border-2 border-emerald-500 backdrop-blur-xl px-10 py-6 rounded-[2.5rem] shadow-[0_20px_60px_rgba(16,185,129,0.5)] animate-pulse">
+            <span className="text-3xl font-black tracking-tighter uppercase bg-gradient-to-br from-emerald-300 via-emerald-500 to-teal-400 bg-clip-text text-transparent block text-center leading-none">
               CRIE SEU CURSO ONLINE <br/> AGORA MESMO
             </span>
-            <div className="mt-2 flex items-center gap-2">
-              <Star className="w-4 h-4 text-fuchsia-500 fill-fuchsia-500" />
-              <Star className="w-4 h-4 text-fuchsia-500 fill-fuchsia-500" />
-              <Star className="w-4 h-4 text-fuchsia-500 fill-fuchsia-500" />
-              <Star className="w-4 h-4 text-fuchsia-500 fill-fuchsia-500" />
-              <Star className="w-4 h-4 text-fuchsia-500 fill-fuchsia-500" />
+            <div className="mt-4 flex items-center justify-center gap-2">
+              <Star className="w-5 h-5 text-emerald-500 fill-emerald-500" />
+              <Star className="w-5 h-5 text-emerald-500 fill-emerald-500" />
+              <Star className="w-5 h-5 text-emerald-500 fill-emerald-500" />
+              <Star className="w-5 h-5 text-emerald-500 fill-emerald-500" />
+              <Star className="w-5 h-5 text-emerald-500 fill-emerald-500" />
             </div>
           </div>
         </div>
@@ -186,10 +186,10 @@ export default function App() {
           </p>
 
           <div className="bg-zinc-900/50 border border-zinc-800 rounded-[3rem] p-10 mb-12 max-w-xl mx-auto backdrop-blur-md shadow-[0_30px_100px_rgba(0,0,0,0.5)] border-t border-t-white/5 relative">
-             {/* Mobile/Small Badge reinforcement */}
+             {/* Mobile Badge - COR VERDE ESMERALDA */}
             <div className="lg:hidden absolute -top-8 -right-4 -rotate-6 z-20">
-               <div className="bg-zinc-900 border border-fuchsia-500/50 px-4 py-2 rounded-xl shadow-lg">
-                  <span className="text-[10px] font-black uppercase text-gradient">CRIE SEU CURSO AGORA</span>
+               <div className="bg-emerald-600 border-2 border-emerald-400 px-4 py-2 rounded-xl shadow-2xl animate-pulse">
+                  <span className="text-[10px] font-black uppercase text-white">CRIE SEU CURSO AGORA</span>
                </div>
             </div>
 
@@ -509,12 +509,16 @@ export default function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-2xl mx-auto">
             <div className="bg-zinc-900/50 p-6 rounded-[2rem] border border-zinc-800">
-              <Sparkles className="text-fuchsia-500 mb-4 w-8 h-8" />
+              <span className="flex items-center justify-center w-12 h-12 bg-fuchsia-500/10 rounded-2xl mb-4 group-hover:scale-110 transition-transform">
+                <Sparkles className="text-fuchsia-500 w-6 h-6" />
+              </span>
               <h4 className="text-xl font-bold mb-2">Transformação Real</h4>
               <p className="text-zinc-400 text-sm">Saia da cadeira do salão e comece a escalar seu nome nacionalmente.</p>
             </div>
             <div className="bg-zinc-900/50 p-6 rounded-[2rem] border border-zinc-800">
-              <Zap className="text-fuchsia-500 mb-4 w-8 h-8" />
+              <span className="flex items-center justify-center w-12 h-12 bg-fuchsia-500/10 rounded-2xl mb-4 group-hover:scale-110 transition-transform">
+                <Zap className="text-fuchsia-500 w-6 h-6" />
+              </span>
               <h4 className="text-xl font-bold mb-2">Escala Ilimitada</h4>
               <p className="text-zinc-400 text-sm">Venda para 100, 500 ou 1.000 alunas ao mesmo tempo, sem cansaço físico.</p>
             </div>
